@@ -1,5 +1,5 @@
 h1 {
-	color:Red;
+	color:Black;
 	font:14px;
 }
 
@@ -39,3 +39,4 @@ button {
 button:hover {
   background: yellow;
 }
+
