@@ -3,6 +3,7 @@
 	<head>
 	<title>My Profile</title>
 		<link href="stylesheet.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
 		<div style='float:left; width:30%'>
@@ -20,10 +21,15 @@
 			<p>LinkedIn: https://www.linkedin.com/in/kwok-liang-soo-a3a04a2b/</p>
 		</div>
 		
-		<figure class="item">
     	<img src="https://scontent.fkul8-1.fna.fbcdn.net/v/t1.0-9/17903884_1462094210551664_6029984060927601404_n.jpg?oh=a44b202b154dfe9e7e0f9c504fb9d4ac&oe=59CC6021"/>
-		</figure>
 
+    	<button onclick="myFunction()">Subscribe</button>
+    	<p id="click"></p>
+    	<script>
+		function myFunction() {
+    	document.getElementById("click").innerHTML = "Thank you for subscribing.";
+	}
+	</script>
 	</body>
 </html>
 </>
