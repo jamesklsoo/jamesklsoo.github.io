@@ -1,5 +1,4 @@
 h1 {
-	color:Black;
 	font:14px;
 }
 
@@ -8,12 +7,9 @@ h1 {
 }
 
 
-body {
-	background-color: black; 
-}
+
 
 p {
-	color:Yellow;
 	font:12px;
 	font-family: Times;
 }
@@ -28,14 +24,55 @@ img {
     display: block;
 }
 
-button {
-    margin: center;
-  line-height: 60px;
-  font-weight: bold;
-  padding: 0 40px;
-  background: blue;
-  border: none;
+
+.about {
+	background-color: lightyellow;
+	font-size: 18px;
 }
-button:hover {
-  background: yellow;
+
+.navbar {
+  background-color: #B7CEEC;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.navbar li{
+	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.icon-bar {
+  background-color: #224cbd;
+}
+
+img { 
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#contact {
+	background-color: #F9DEA9;
+}
+
+.main {
+	margin-top: 30px; /* Add a top margin to avoid content overlay */
+	position: relative;
+}
+
+body {
+	background-image: url("img/polyagonal-web-design.jpg");
+    	}
+
+#portfolio {
+	font-size: 18px;
 }
