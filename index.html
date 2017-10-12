@@ -20,7 +20,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Home</a></li>
       <li><a href="#about">About</a></li> 
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -30,26 +30,34 @@
 </nav>
 <br>
 <div class="main">
-	<section>
+	<section class="info" id="info">
+  <div id="info">
 	<div class="row">
-		<h1>James Soo</h1>
-  		<h2>Welcome to My Portfolio</h2>
+		<h1>Welcome to My Portfolio</h1>
+  		<h2>This portfolio consists of 3 sections: About which is a brief summary about myself, Portfolio where I showcase some web apps that I have built and Contact details if you would like to contact me or view my source code.</h2>
 	</div>
+    </div>
 	</section>
 	<section class="about" id="about">
+    <div id="about">
     <div class="row">
       <h1>About</h1>
+      <br>
       <p class="big-text">Name: Soo Kwok Liang (James)</p>
-      <p>About Me: Prior to being a web developer, was working for 3.5 years in various roles and industries</p>
-      <p>Skills: Ruby, HTML, CSS, Javascript</p>
-      <p>Technologies: Heroku (Beginner), Wordpress (Beginner)</p>
+      <p>Work experience: Prior to being a web developer, was working for 3.5 years in various roles and industries</p>
+      <p>Langugages: Ruby, HTML, CSS, Javascript</p>
+      <p>Frameworks: Rails, Sinatra, Bootstrap</p>
+      <p>Interests: When I am not coding, I play sports and perform comedy open mic</p>
+    </div>
     </div>
  </section>
  <section class="portfolio" id="portfolio">
  	 <div id="portfolio">
      <div class="row">
       <h1>Portfolio</h1>
-      <table>
+      <br>
+      <table style="line-height: 60px;">
+      <div class="row">
       <tr>
       	<td>
       		<p>Month.ly URL Shortener</p>
@@ -90,13 +98,14 @@
       			</a>        		
         	</td>
         </tr>
+        </div>
       </table>
     </div>
 	</section>
 	<br>
 	<section class="contact" id="contact">
+    <div id="contact">
 	<div class="row">
-	<div class="col-md-4 col-md-offset-4">
       <h1>Contact Me</h1>
       <table>
       	<tr>
@@ -105,11 +114,13 @@
       				<img src="img/gmail.png">
       			</a>
       		</td>
+          <br>
       		<td>
       			<a href="https://github.com/jamesklsoo/" target="_blank">
       				<img src="img/GitHub-Mark.png">
       			</a>      			
       		</td>
+          <br>
       		<td>
       			<a href="https://www.linkedin.com/in/kwok-liang-soo-a3a04a2b/" target="_blank">
       				<img src="img/linkedin.png">

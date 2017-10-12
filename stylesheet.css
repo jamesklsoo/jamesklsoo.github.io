@@ -7,7 +7,11 @@ h1 {
 }
 
 
-
+#info {
+	text-align: center;
+	padding: 3%;
+	margin: 3%;
+}
 
 p {
 	font:12px;
@@ -27,6 +31,8 @@ img {
 
 .about {
 	background-color: lightyellow;
+	text-align: left;
+	padding: 4%;
 	font-size: 18px;
 }
 
@@ -48,6 +54,10 @@ img {
 
 }
 
+.navbar-header a{
+	margin-top: 13%;
+}
+
 .icon-bar {
   background-color: #224cbd;
 }
@@ -62,6 +72,10 @@ img {
 
 #contact {
 	background-color: #F9DEA9;
+	position: relative;
+	text-align: left;
+	padding: 1%;
+	margin-top: -1%;
 }
 
 .main {
@@ -74,5 +88,18 @@ body {
     	}
 
 #portfolio {
+	background-color: lightblue;
 	font-size: 18px;
+	padding: 2%;
+}
+
+#portfolio img{
+	height: 28%;
+	width: 80%;
+}
+
+
+#contact img {
+	height: 10%;
+	width: 10%;
 }
